@@ -7,7 +7,7 @@ export const fetchAirports = async () => {
   return response.data;
 };
 
-export const apiKey = "4ac29e9c523c519315777db7";
+export const apiKey = process.env.REACT_APP_API_KEY;
 export const calculateFlightFootprint = async (
   apiKey,
   segments,
