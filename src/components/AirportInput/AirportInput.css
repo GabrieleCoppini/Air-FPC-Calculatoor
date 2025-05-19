@@ -1,0 +1,73 @@
+.airport-input {
+    position: relative;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+  }
+  
+  .airport-input label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .airport-input input[type="text"] {
+    width:100%;
+    padding: 10px 12px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .airport-input input[type="text"]:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  .airport-input ul {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .airport-input li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .airport-input li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  @media (max-width: 600px) {
+    .airport-input input[type="text"] {
+      font-size: 0.9rem;
+      padding: 8px 10px;
+    }
+  
+    .airport-input label {
+      font-size: 0.9rem;
+    }
+  
+    .airport-input li {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  
