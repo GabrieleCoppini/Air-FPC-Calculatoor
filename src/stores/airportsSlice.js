@@ -15,7 +15,7 @@ const airportsSlice = createSlice({
     airports: [],
     loading: false,
     error: null,
-    selectedAirport: null, // Stato per aeroporto selezionato
+    selectedAirport: null,
   },
   reducers: {
     selectAirport(state, action) {

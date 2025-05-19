@@ -24,6 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
     <title>Air FPC Calculatoor</title>
   </head>
   <body>
@@ -39,5 +40,25 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.3/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDY4LFRh1C0ALbcefrevmRJn9UqdWdFMVo",
+        authDomain: "air-travel-1c8bb.firebaseapp.com",
+        projectId: "air-travel-1c8bb",
+        storageBucket: "air-travel-1c8bb.firebasestorage.app",
+        messagingSenderId: "114234194320",
+        appId: "1:114234194320:web:1aab78d4833959ed2e1b15",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>

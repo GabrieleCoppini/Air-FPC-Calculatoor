@@ -44,6 +44,7 @@
     color: #2563eb;
   }
   
+  /* Responsive styles */
   @media (max-width: 600px) {
     .flight-footprint-container {
       padding: 15px;
