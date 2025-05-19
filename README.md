@@ -11,10 +11,10 @@ During the course I had the chance to learn HTML, CSS, Sass, Bootstrap, JavaScri
 link website
 [Air FPC Calculatoor](https://air-fpc-calculatoor.web.app/)
 
-## Tecnologie Utilizzate
+## Technologies Used
 
-- **React**: per la creazione dell'interfaccia utente
-- **Redux**: per la gestione dello stato dell'applicazione
-- **CSS**: per lo styling dell'app
-- **React Router**: per la navigazione tra le pagine
-- **API di goclimate**: L'API GoClimate utilizza i codici aeroportuali IATA di una tratta per calcolare le emissioni di CO2
+- **React**: for building the user interface
+- **Redux**: for managing the application state
+- **CSS**: for styling the app
+- **React Router**: for navigation between pages
+- **GoClimate API**: The GoClimate API uses IATA airport codes of a route to calculate CO2 emissions
