@@ -11,6 +11,14 @@ During the course I had the chance to learn HTML, CSS, Sass, Bootstrap, JavaScri
 link website
 [Air FPC Calculatoor](https://air-fpc-calculatoor.web.app/)
 
+![AIR](https://github.com/GabrieleCoppini/Air-FPC-Calculatoor/blob/main/air2.png)
+![AIR](https://github.com/GabrieleCoppini/Air-FPC-Calculatoor/blob/main/air4.png)
+![AIR](https://github.com/GabrieleCoppini/Air-FPC-Calculatoor/blob/main/Air.png)
+
+
+
+
+
 ## Technologies Used
 
 - **React**: for building the user interface
